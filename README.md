@@ -1,14 +1,18 @@
 # Пробив ВК — пробить человека по ВК | Бот для пробива ВК по ID, телефону, ссылке, юзу
 
+<p align="center"><a href="https://bot-probiv.org/"><img src="https://img.shields.io/badge/🚀_ПЕРЕЙТИ_В_БОТА-bot--probiv.org-0078D4?style=for-the-badge&logo=telegram" alt="бот пробив вк"></a> <a href="https://bot-probiv.org/"><img src="https://img.shields.io/badge/Пробить_вк_бесплатно-online-28a745?style=for-the-badge" alt="пробить вк бесплатно"></a></p>
+
 > **Пробить ВК** — 14 058 запросов в месяц, **пробив ВК** — 14 976. Здесь — полный гайд как **пробить человека по ВК**, **пробить страницу/профиль/аккаунт вк**, **пробить номер по вк**, **пробить по айди/ссылке/юзу**, через **бот для пробива вк** и **пробив вк тг бот**. Бесплатно, онлайн, в том числе **пробить закрытый вк**.
 
 <p align="center">
+  <a href="https://bot-probiv.org/"><img src="https://img.shields.io/badge/⚡_ПРОБИТЬ_ВК_СЕЙЧАС-bot--probiv.org-FF1A1A?style=for-the-badge" alt="пробить вк сейчас"></a>
   <img src="https://img.shields.io/badge/пробив_вк-14%20976%20запросов-0078D4?style=for-the-badge" alt="пробив вк">
   <img src="https://img.shields.io/badge/пробить_вк-14%20058-28a745?style=for-the-badge" alt="пробить вк">
   <img src="https://img.shields.io/badge/тг_бот-586-26A5E4?style=for-the-badge" alt="пробив вк тг бот">
 </p>
 
 <p align="center">
+  <a href="https://bot-probiv.org/"><img src="https://img.shields.io/badge/⚡_ПРОБИТЬ_ВК_СЕЙЧАС-bot--probiv.org-FF1A1A?style=for-the-badge" alt="пробить вк сейчас"></a>
   <a href="#быстрый-старт---пробить-вк-за-10-секунд"><b>⚡ Пробить ВК сейчас</b></a> •
   <a href="https://github.com/probit-vk/probiv-vk-bot">ТГ бот</a> •
   <a href="https://github.com/probit-vk/probiv-vk-po-nomeru-telefona">По номеру</a> •
@@ -17,6 +21,7 @@
 </p>
 
 <p align="center">
+  <a href="https://bot-probiv.org/"><img src="https://img.shields.io/badge/⚡_ПРОБИТЬ_ВК_СЕЙЧАС-bot--probiv.org-FF1A1A?style=for-the-badge" alt="пробить вк сейчас"></a>
   <sub>Обновлено: август 2026 • Wordstat 14.07–12.08.2026 • Регион: все • Ответы на все 90+ ключей Wordstat внутри</sub>
 </p>
 
@@ -48,7 +53,7 @@
 ### Вариант 1 — ТГ бот (рекомендуется)
 
 ```text
-1. Открой бота:  t.me/your_probiv_vk_bot  (замени на свой)
+1. Открой [bot-probiv.org](https://bot-probiv.org/)  (замени на свой)
 2. Нажми /start → /probiv
 3. Пришли что угодно из списка:
    • https://vk.com/id123456
@@ -63,7 +68,7 @@
 ### Вариант 2 — API / код
 
 ```bash
-curl -X POST https://api.yourbot.com/v1/probiv \
+curl -X POST https://bot-probiv.org/v1/probiv \
   -H "Content-Type: application/json" \
   -d '{"query": "https://vk.com/id123456"}'
 ```
@@ -72,13 +77,13 @@ curl -X POST https://api.yourbot.com/v1/probiv \
 # python — пробить человека по вк через api
 import requests
 for q in ["https://vk.com/id123456", "+79161234567", "@durov", "id123456"]:
-    r = requests.post("https://api.yourbot.com/v1/probiv", json={"query": q})
+    r = requests.post("https://bot-probiv.org/v1/probiv", json={"query": q})
     print(q, r.json().get("status"))
 ```
 
 ```javascript
 // node — пробить по айди вк / по ссылке вк / по юзу
-fetch("https://api.yourbot.com/v1/probiv", {
+fetch("https://bot-probiv.org/v1/probiv", {
   method: "POST",
   headers: {"Content-Type":"application/json"},
   body: JSON.stringify({query: "durov"}) // юз без @
@@ -323,6 +328,8 @@ https://vk.com/durov
 
 ## Пробив вк с кем общается / пробить активность вк / пробив друзей вк
 
+<p align="center"><a href="https://bot-probiv.org/"><img src="https://img.shields.io/badge/🚀_ПЕРЕЙТИ_В_БОТА-bot--probiv.org-0078D4?style=for-the-badge&logo=telegram" alt="бот пробив вк"></a> <a href="https://bot-probiv.org/"><img src="https://img.shields.io/badge/Пробить_вк_бесплатно-online-28a745?style=for-the-badge" alt="пробить вк бесплатно"></a></p>
+
 | Ключ | Частота |
 |------|---------|
 | пробив вк с кем общается | 144 |
@@ -497,7 +504,7 @@ cd probiv-vk-bot
 docker compose up -d
 # или
 pip install -r requirements.txt
-python bot.py --token YOUR_TG_TOKEN
+python bot.py --token bot-probiv.org
 ```
 
 Дока: [probiv-vk-bot#установка](https://github.com/probit-vk/probiv-vk-bot#установка).
@@ -505,6 +512,7 @@ python bot.py --token YOUR_TG_TOKEN
 ---
 
 <p align="center">
+  <a href="https://bot-probiv.org/"><img src="https://img.shields.io/badge/⚡_ПРОБИТЬ_ВК_СЕЙЧАС-bot--probiv.org-FF1A1A?style=for-the-badge" alt="пробить вк сейчас"></a>
   <b>Пробив ВК — пробить человека, страницу, профиль, номер, по айди и ссылке через ТГ бота</b><br>
   <a href="https://github.com/probit-vk/probiv-vk-bot">Запустить бота</a> •
   <a href="https://github.com/probit-vk/probiv-vk-po-nomeru-telefona">Пробить номер</a> •
@@ -512,6 +520,11 @@ python bot.py --token YOUR_TG_TOKEN
 </p>
 
 <p align="center">
+  <a href="https://bot-probiv.org/"><img src="https://img.shields.io/badge/⚡_ПРОБИТЬ_ВК_СЕЙЧАС-bot--probiv.org-FF1A1A?style=for-the-badge" alt="пробить вк сейчас"></a>
   <sub>Дисклеймер: инструмент для проверки своих страниц и OSINT в законных целях. Не используйте для нарушения приватности. <br>
   Keywords: пробив вк, пробить вк, пробить человека по вк, пробить страницу вк, пробить по айди вк, пробить номер по вк, бот для пробива вк, пробив вк тг бот, пробив ботов вк, пробить профиль вк, пробить аккаунт вк, пробить по ссылке вк, пробив вк по телефону, пробив фото вк, пробить закрытый вк, пробить вк бесплатно.</sub>
-</p>
+</p>
+
+
+
+
